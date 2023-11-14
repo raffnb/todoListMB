@@ -1,5 +1,5 @@
-import { useState } from 'react'
-
+import { useState } from 'react';
+import "./App.css";
 
 function App() {
   const [todos,setTodos] = useState([
@@ -47,6 +47,7 @@ function App() {
       </div>
     </div>
   );
+  
 }
 
 export default App
